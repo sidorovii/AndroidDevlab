@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textViewCounter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="200dp"
+        android:text="0"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textViewCounter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="200dp"
+        android:text="0"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="165dp"
+        android:layout_marginBottom="100dp"
+        android:onClick="button1Clicked"
+        android:text="Push me!" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="165dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="button2Clicked"
+        android:text="Button2" />
+
+    <Button
+        android:id="@+id/buttonClr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="475dp"
+        android:onClick="buttonClrClicked"
+        android:text="Clear" />
+
+</FrameLayout>

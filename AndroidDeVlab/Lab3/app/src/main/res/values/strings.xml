@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab2.1</string>
+    <string name="strAdd">Добавить</string>
+    <string name="strDelete">Удалить</string>
+    <string name="enter_your_email_here">Enter Your Email</string>
+    <string name="enter_your_password_here">Enter Your Password</string>
+    <string name="RegText">Регистрация</string>
+    <string name="regButtonText">Зарегистрироваться</string>
+    <string name="strBack">Назад</string>
+</resources>
