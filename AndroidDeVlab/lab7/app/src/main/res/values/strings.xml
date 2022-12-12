@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab7</string>
+    <string name="strAdd">Добавить</string>
+    <string name="strDelete">Удалить</string>
+    <string name="enter_your_email_here">Enter Your Email</string>
+    <string name="enter_your_password_here">Enter Your Password</string>
+    <string name="RegText">Регистрация</string>
+    <string name="regButtonText">Зарегистрироваться</string>
+    <string name="strBack">Назад</string>
+    <string name="clear_db">Clear_Db</string>
+    <string name="restore_data">Restore data</string>
+</resources>
